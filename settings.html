@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="settings.css">
+</head>
+
+<body>
+
+   <h1>Settings</h1>
+
+   <form>
+
+      <div class="option-check">
+         <label for="change-image-quality">Change Image Quality</label>
+         <input type="checkbox" id="change-image-quality">
+      </div>
+      <label for="image-quality">Quality</label>
+      <input type="number" id="image-quality" min="1" max="100" value="100">
+      <br>
+      <br>
+      <div class="option-check">
+         <label for="change-font">Font</label>
+         <input type="checkbox" id="change-font">
+      </div>
+      <label for="font">Font</label>
+      <select name="font" id="font">
+         <option value="Arial">Arial</option>
+         <option value="Times New Roman">Times New Roman</option>
+         <option value="Courier New">Courier New</option>
+      </select>
+      <br>
+      <br>
+
+      <div class="option-check">
+         <label for="change-youtube-video">Disable Youtube Video Till Allowed</label>
+         <input type="checkbox" id="change-youtube-video">
+      </div>
+      <br>
+
+      <div class="option-check">
+         <label for="change-auto-play">Disable Auto Play</label>
+         <input type="checkbox" id="change-auto-play">
+      </div>
+      <br>
+
+      <div class="option-check">
+         <label for="simplify-colors">Change Colors Slightly</label>
+         <input type="checkbox" id="simplify-colors">
+      </div>
+      <br>
+
+      <div class="option-check">
+         <label for="dark-mode">Dark Mode</label>
+         <input type="checkbox" id="dark-mode">
+      </div>
+
+   </form>
+
+   <script src="settings.js"></script>
+</body>
+
+</html>

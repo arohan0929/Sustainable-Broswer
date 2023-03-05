@@ -1,0 +1,32 @@
+html, body {
+   width: 500px;
+   margin: 0;
+}
+
+h1 {
+   text-align: center;
+   margin-left: 0;
+   margin-right: 0;
+   margin-top: 0.3em;
+   margin-bottom: 0.3em;
+}
+
+body {
+   font-size: 19px;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.option-check {
+   display: grid;
+   grid-template-columns: max-content max-content;
+   gap: 6px;
+   place-items: center;
+}
+
+.option-check > input {
+   margin: 0;
+   height: 15px;
+   width: 15px;
+}
+
